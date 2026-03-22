@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Invest - Karabo's Second Steam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">Karabo's <span>Second Steam</span></a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="model.html">Business Model</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <h1>Contact <span>& Invest</span></h1>
+        <p>Order a kettle, get a repair, or talk to us about investing in our business</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section">
+        <div class="two-col">
+
+            <!-- Contact Info -->
+            <div>
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <p style="font-size: 14px; color: #555; margin-bottom: 25px; line-height: 1.7;">The fastest way to reach us is by WhatsApp. We usually reply within 1 hour during business hours.</p>
+
+                <img src="images/c1.jpg" alt="Visit our workshop in Ha Mafafa Maseru" style="width: 100%; height: 220px; object-fit: cover; border-radius: 8px; margin-bottom: 20px; border: 3px solid #E85D04;">
+
+                <table class="styled-table" style="margin-bottom: 20px;">
+                    <tbody>
+                        <tr>
+                            <td><strong>Address</strong></td>
+                            <td>Ha Mafafa, Metcash, Maseru, Lesotho</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Phone / WhatsApp</strong></td>
+                            <td><a href="tel:+26622446533" style="color: #E85D04;">+266 6336 6555</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Email</strong></td>
+                            <td><a href="mailto:karabosecondsteam@gmail.com" style="color: #E85D04;">karabokhakhanevee@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Mon – Fri</strong></td>
+                            <td>8:00am – 5:00pm</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Saturday</strong></td>
+                            <td>9:00am – 3:00pm</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sunday</strong></td>
+                            <td>Closed</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <a href="https://wa.me/26622446533?text=Hi%20I%20want%20to%20order%20a%20kettle" target="_blank" class="btn" style="background-color: #25D366; margin-bottom: 10px;">WhatsApp Us Now</a>
+                <br><br>
+
+        
+
+            <!-- Contact Form -->
+            <div>
+                <h2 class="section-title">Send a <span>Message</span></h2>
+                <p style="font-size: 14px; color: #555; margin-bottom: 25px;">Fill in the form below and we will reply within 24 hours.</p>
+
+                <div style="background-color: white; border: 1px solid #e0d0c0; border-radius: 8px; padding: 30px;">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                        <div class="form-group">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" placeholder="Your first name">
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" placeholder="Your last name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone / WhatsApp Number</label>
+                        <input type="tel" id="phone" placeholder="+266 ...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="your@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reason">What is your enquiry about?</label>
+                        <select id="reason">
+                            <option value="">Choose an option...</option>
+                            <option>Buy a kettle</option>
+                            <option>Kettle repair</option>
+                            <option>Bulk office order</option>
+                            <option>Trade-in programme</option>
+                            <option>Investment enquiry</option>
+                            <option>General question</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" placeholder="Tell us what you need..."></textarea>
+                    </div>
+
+                    <button class="btn" onclick="sendMessage()" style="width: 100%; padding: 13px;">Send Message</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <h4>Karabo's Second Steam</h4>
+                <p>We sell refurbished electrical kettles in Maseru, Lesotho. Quality products at prices every family can afford.</p>
+                <br>
+                <p>Ha Mafafa, Metcash, Maseru, Lesotho</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products & Prices</a></li>
+                    <li><a href="model.html">Business Model</a></li>
+                    <li><a href="contact.html">Contact / Invest</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact Us</h4>
+                <ul>
+                    <li>📍 Ha Mafafa, Metcash, Maseru</li>
+                    <li><a href="tel:+26622446533">📞 +266 6336 6555</a></li>
+                    <li><a href="mailto:karabosecondsteam@gmail.com">✉ karabokhakhanevee@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Karabo's Second Steam. All rights reserved. | Ha Mafafa, Metcash, Maseru, Lesotho</p>
+        </div>
+    </footer>
+
+</body>
+</html>
